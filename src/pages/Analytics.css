@@ -1,0 +1,38 @@
+.analytics-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+  }
+  
+  .chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%; /* Makes it responsive */
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  
+    .analytics-container h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chart-container {
+      height: 250px;
+    }
+  
+    .analytics-container {
+      padding: 10px;
+    }
+  
+    .analytics-container h1 {
+      font-size: 1.2rem;
+    }
+  }
+  
